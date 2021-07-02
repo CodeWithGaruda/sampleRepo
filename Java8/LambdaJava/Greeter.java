@@ -12,6 +12,8 @@ class Greeter {
         greet(sample1);
         Greeting sample2 = () -> System.out.println("this is hello world from sanath");
         greet(sample2);
+        Greeting sample3 = () -> System.out.println("this is hello world from lenovo laptop");
+        greet(sample3);
     }
 
     public static void greet(Greeting greeting) {
