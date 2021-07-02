@@ -10,6 +10,8 @@ class Greeter {
         greet(hwg);
         Greeting sample1 = () -> System.out.println("hello world");
         greet(sample1);
+        Greeting sample2 = () -> System.out.println("this is hello world from sanath");
+        greet(sample2);
     }
 
     public static void greet(Greeting greeting) {
