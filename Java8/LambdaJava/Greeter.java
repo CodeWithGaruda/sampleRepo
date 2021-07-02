@@ -8,12 +8,15 @@ class Greeter {
     public static void main(String[] args) {
         Greeting hwg = new HelloWorldGreeting();
         greet(hwg);
-        Greeting sample1 = () -> System.out.println("hello world");
-        greet(sample1);
-        Greeting sample2 = () -> System.out.println("this is hello world from sanath");
-        greet(sample2);
-        Greeting sample3 = () -> System.out.println("this is hello world from lenovo laptop");
-        greet(sample3);
+        Greeting greeting = () -> System.out.println("this is hello world from lenovo laptop");
+        greet(greeting);
+        Greeting innerClassGreeting = new Greeting() {
+            public void perform() {
+                System.out.println("this is anonymous inner class");
+            };
+        };
+        greet(innerClassGreeting);
+
     }
 
     public static void greet(Greeting greeting) {
