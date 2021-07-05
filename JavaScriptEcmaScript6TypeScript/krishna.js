@@ -1,0 +1,1 @@
+console.log("this is krishna file in javaScript folder");
