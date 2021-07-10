@@ -25,7 +25,7 @@ public class Exercise1 {
         }
     }
 
-    public static void printNameThatBeginWithC(List persons, Condition c) {
+    public static void printNameThatBeginWithC(List<Person> persons, Condition c) {
         System.out.println("--------------------------------------");
         for (Object object : persons) {
             if (c.test((Person) object))

@@ -1,7 +1,7 @@
 package Java8.LambdaJava;
 
 /**
- * person class with firstName secondName age
+ * person class with firstName lastName age
  */
 public class Person {
     private String firstname;
