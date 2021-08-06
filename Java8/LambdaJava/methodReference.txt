@@ -2,3 +2,5 @@ method reference
 example 1:
 when u have a lambda expression which is not taking any arguments and not calling any function without arguments
 then u can replace that argument with method reference
+
+example 2:
